@@ -1,0 +1,16 @@
+{
+  "name": "crud-posts",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/jfirme-sys/crud-posts.git",
+  "author": "jfirme-sys <julianofirme23@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start:ui": "cd frontend && yarn start",
+    "start:api": "cd backend && nodemon",
+    "dev": "concurrently \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
