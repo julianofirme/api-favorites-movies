@@ -23,7 +23,7 @@ $ npm install
 
 Crie um arquivo .env na raíz do projeto com as variáveis de ambiente PORT, deve receber a porta que o servidor ocupará e MONGO_URL, que deve rceber o link de conexão com o banco de dados MongoDB
 
-```
+```bash
 # Execute a aplicação em modo de desenvolvimento
 $ npm run start
 ```
