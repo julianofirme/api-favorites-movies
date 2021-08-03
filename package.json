@@ -1,16 +1,22 @@
 {
-  "name": "crud-posts",
+  "name": "server",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "https://github.com/jfirme-sys/crud-posts.git",
-  "author": "jfirme-sys <julianofirme23@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start:ui": "cd frontend && yarn start",
-    "start:api": "cd backend && nodemon",
-    "dev": "concurrently \"yarn server\" \"yarn client\""
+    "start": "nodemon"
   },
   "dependencies": {
-    "nodemon": "^2.0.12"
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0"
   }
 }
